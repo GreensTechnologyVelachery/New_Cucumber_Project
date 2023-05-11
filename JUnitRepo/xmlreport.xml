@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="32.350222">
+    <testcase classname="To validate the login functionality of facebook application" name="To validate login with invalid username and invalid password" time="5.831045">
+        <system-out>
+            <![CDATA[When User has to launch the url of the fb application.......................passed
+When User has to pass the invalid username in email field...................passed
+And User has to pass the invalid password in password field.................passed
+And User has to click the login button......................................passed
+And Whether user able to see the error page.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To validate the login functionality of facebook application" name="To validate login with bulk of datas" time="2.999602">
+        <system-out>
+            <![CDATA[When To launch the facebook url.............................................passed
+And To pass the positive and negative "java@gmail.com" usernames in email field.passed
+And To pass the "java@123" positive and negative password in password field.passed
+And To click the login button...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To validate the login functionality of facebook application" name="To validate login with bulk of datas 2" time="4.849903">
+        <system-out>
+            <![CDATA[When To launch the facebook url.............................................passed
+And To pass the positive and negative "sel@gmail.com" usernames in email field.passed
+And To pass the "sel@123" positive and negative password in password field..passed
+And To click the login button...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To validate the login functionality of facebook application" name="To validate login with bulk of datas 3" time="6.519182">
+        <system-out>
+            <![CDATA[When To launch the facebook url.............................................passed
+And To pass the positive and negative "python@gmail.com" usernames in email field.passed
+And To pass the "python@123" positive and negative password in password field.passed
+And To click the login button...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To validate the login functionality of facebook application" name="To validate login with bulk of datas 4" time="6.718498">
+        <system-out>
+            <![CDATA[When To launch the facebook url.............................................passed
+And To pass the positive and negative "sql@gmail.com" usernames in email field.passed
+And To pass the "sql@123" positive and negative password in password field..passed
+And To click the login button...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To validate the signin functionality of amazon application" name="To validate signin with invalid email and invalid password" time="5.431992">
+        <system-out>
+            <![CDATA[When To launch the amazon application.......................................passed
+And To pass invalid email in email field....................................passed
+And To click the continue button............................................passed
+And To pass the invalid password in password field..........................passed
+And To click the signin button..............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
